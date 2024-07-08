@@ -82,6 +82,8 @@ Easily customize your Discord playing status with an image.
     python your_file.py
     ```
 
+    ![app](app.png)
+
 ## How to Create and Run the Executable
 
 1. Follow the steps in `howtoactivate.txt` or continue with these steps.
