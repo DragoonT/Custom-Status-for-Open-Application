@@ -1,3 +1,5 @@
+## How to run status in discord
+
 python -m venv myenv
 
 myenv\Scripts\activate   # On Windows
@@ -6,14 +8,14 @@ pip install discord.py psutil pypresence pillow
 
 python test.py   # you can rename test.py
 
---------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------
 
-## if you want to .exe (If you rename test.py. You need rename test.py from this same)
+## if you want to change to .exe. Follow this step commands (If you rename test.py. You need rename test.py from this same)
 
 pip install pyinstaller
 
-if you want install all command. You can use this command -> pyinstaller --onefile --icon=youricon.ico yourscript.py
-if you want install all command no show console. You can use this command -> pyinstaller --onefile --icon=youricon.ico --noconsole test.py
+if you want install all command. You can use this command -> pyinstaller --onefile --icon=your_icon.ico your_file.py
+if you want install all command no show console. You can use this command -> pyinstaller --onefile --icon=your_icon.ico --noconsole your_file.py
 
 pyinstaller --onefile test.py   # create single exe
 

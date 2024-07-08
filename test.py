@@ -6,7 +6,7 @@ from pypresence import AioPresence
 
 TOKEN = 'Your Discord Bot Token'
 CLIENT_ID = 'Your Discord Application ID (Client)'
-EXECUTABLE_NAME = r'C:\path\yourapplication.exe'
+EXECUTABLE_NAME = r'C:\path\to\yourapplication.exe'
 
 
 intents = discord.Intents.default()
@@ -44,7 +44,7 @@ class CustomClient(discord.Client):
 
             await self.presence.update(
                 state=state_message,
-                small_image="YourRichPresenceAssets",
+                small_image="YourRichPresenceAssets", # large_image="YourRichPresenceAssets",
                 small_text="Playing yourapplication", # unnecessary
                 # start=self.start_time
             )
