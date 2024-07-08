@@ -71,7 +71,9 @@ Easily customize your Discord playing status with an image.
 
 3. Open `cropimage.py` (or rename this file) and set `image_path` to your image's path and `output_path` for the cropped image.
 
-4. Go to the **Rich Presence** tab on the [Discord Developer Portal](https://discord.com/developers/applications) and upload your image in **Rich Presence Assets**. Copy the image name to `small_image` in `your_file.py`.
+4. Go to the [Discord Developer Portal](https://discord.com/developers/applications) and navigate to **Rich Presence** > **Rich Presence Assets**. Click **Add Image(s)** to upload your cropped image and copy the image name to `small_image="YourRichPresenceAssets"` in `your_file.py`.
+
+    ![richpresenceassets](richpresenceassets.png)
 
 5. If you need to re-upload the image, wait 10-15 minutes and reload the website.
 
