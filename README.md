@@ -18,9 +18,9 @@ Easily customize your Discord playing status with an image.
 
 2. Clone the repository:
     ```bash
-    git clone https://github.com/DragoonT/Custom_Playing_Status_for_Open_Application.git your_folder_name
+    git clone https://github.com/DragoonT/Custom-Status-for-Open-Application.git your_folder_name
     ```
-    Or download the [Custom_Playing_Status_for_Open_Application.zip](https://github.com/DragoonT/Custom_Playing_Status_for_Open_Application/archive/refs/heads/main.zip) to your PC and extract it.
+    Or download the [Custom-Status-for-Open-Application.zip](https://github.com/DragoonT/Custom-Status-for-Open-Application/archive/refs/heads/main.zip) to your PC and extract it.
 
 3. Go to the [Discord Developer Portal](https://discord.com/developers/applications) and create a new application (Create Bot Discord).
     ![Star_Rail](Star_Rail.png)
