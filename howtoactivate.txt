@@ -17,6 +17,8 @@ pip install pyinstaller
 if you want install all command. You can use this command -> pyinstaller --onefile --icon=your_icon.ico your_file.py
 if you want install all command no show console. You can use this command -> pyinstaller --onefile --icon=your_icon.ico --noconsole your_file.py
 
+For user want exe file folder -> Pyinstaller --icon=your_icon.ico --noconsole your_file.py (no show console)
+
 pyinstaller --onefile test.py   # create single exe
 
 pyinstaller --onefile --icon=youricon.ico test.py   # add icon
