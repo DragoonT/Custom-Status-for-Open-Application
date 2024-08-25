@@ -8,6 +8,7 @@ Easily customize your Discord playing status with an image.
 2. [Add Python to PATH](https://www.mygreatlearning.com/blog/add-python-to-path/)
 3. [Download Visual Studio Code](https://code.visualstudio.com/download) or [Download PyCharm](https://www.jetbrains.com/products/compare/?product=pycharm-ce&product=pycharm)
 4. [CustomStatusDiscord.exe](https://github.com/DragoonT/Custom-Status-for-Open-Application/releases) (full version)
+5. BiliBili Custom Status Discord! [BiliBiliCustomStatusDiscord.exe](https://github.com/DragoonT/BiliBili-Custom-Status/releases)
 
 ## How to Install
 
