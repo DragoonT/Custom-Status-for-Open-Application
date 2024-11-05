@@ -174,3 +174,19 @@ Easily customize your Discord playing status with an image.
 1. Follow the steps above to add an image to your project directory.
 2. You can upload images to Discord Rich Presence Assets as explained in the earlier section, and link it in `small_image="YourRichPresenceAssets"` in `your_file.py`.
 
+## How to Use the Pre-Built `.exe` on Android
+
+If you're an Android user and want to run the `.exe` file directly, you can use an Android app that emulates a Windows environment. **Winlator** is a popular choice that allows you to run Windows applications, including `.exe` files, on Android.
+
+### Requirements
+1. Download **Winlator** (or similar app) from [Winlator's GitHub page](https://github.com/brunodev85/winlator) or an alternative source.
+2. A file manager app is recommended to help navigate project files on your Android device.
+
+### Alternative Option: Using ExaGear (Older Android Devices)
+
+**ExaGear** is another Android app that emulates Windows environments but may not work on all Android versions, as it is no longer actively supported. For older devices, however, it might be an alternative if Winlator does not perform as expected.
+
+1. Download and install ExaGear on your device.
+2. Follow similar steps as above to load and run `CustomStatusDiscord.exe`.
+
+**Note**: Performance may vary depending on your device's specifications. Winlator typically requires devices with higher RAM and processing power for smooth emulation.
