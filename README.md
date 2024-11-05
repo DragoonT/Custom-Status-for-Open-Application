@@ -110,3 +110,67 @@ Easily customize your Discord playing status with an image.
 5. Go to the `dist` directory to find your executable.
 
     ![exe](exe.png)
+
+## Running on Android (Using Termux or Winlator)
+
+### Requirements
+1. [Download Termux](https://github.com/termux/termux-app) (F-Droid recommended) or [Winlator](https://github.com/brunodev85/winlator) to run your Python script on an Android device.
+
+2. (Optional) Install a File Manager app to help navigate project files.
+
+### Steps to Run on Termux
+
+1. **Install Python and Git in Termux**: Open Termux and install the required packages:
+    ```shell
+    pkg update
+    pkg install python git
+    ```
+
+2. **Clone the Repository**: Use `cd` to navigate to your desired directory in Termux, then clone the repository:
+    ```shell
+    cd /path/to/your/folder
+    git clone https://github.com/DragoonT/Custom-Status-for-Open-Application.git
+    ```
+
+3. **Navigate to the Project Folder**:
+    ```shell
+    cd Custom-Status-for-Open-Application
+    ```
+
+4. **Install Required Python Packages**:
+    ```shell
+    pip install discord.py psutil pypresence pillow
+    ```
+
+5. **Edit** `your_file.py` **to Configure TOKEN, CLIENT ID, EXECUTABLE_NAME, and small_image**:
+   Open the script in a text editor (such as Vim, Nano, or any other Termux-compatible editor), and input your Discord bot TOKEN, CLIENT ID, EXECUTABLE_NAME, and small_image.
+
+6. **Run Your Script**:
+    ```shell
+    python your_file.py
+    ```
+
+### Steps to Run on Winlator
+
+**Winlator** is an emulator that allows running Windows applications on Android devices. Here’s how to set it up:
+
+1. **Download and Install Winlator**:
+   Follow the instructions on [Winlator's GitHub](https://github.com/brunodev85/winlator) to set it up on your device.
+
+2. **Transfer Your Project Files to the Winlator Directory**:
+   Place your Python project in a folder accessible to Winlator.
+
+3. **Configure Python in Winlator**:
+   Install Python for Windows within Winlator if it’s not already included.
+
+4. **Run Your Script**:
+    ```shell
+    python your_file.py
+    ```
+
+**Note:** Performance may vary depending on the Android device specifications.
+
+### Adding an Image on Android
+1. Follow the steps above to add an image to your project directory.
+2. You can upload images to Discord Rich Presence Assets as explained in the earlier section, and link it in `small_image="YourRichPresenceAssets"` in `your_file.py`.
+
