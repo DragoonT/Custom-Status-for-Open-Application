@@ -12,36 +12,57 @@ Easily customize your Discord playing status with an image.
 6. iQIYI Custom Status Discord! [iQIYICustomStatusDiscord.exe](https://github.com/DragoonT/iQIYI-Custom-Status/releases)
 
 ## How to Create This Project (from howtoactivate.txt)
+
+1. **Create a virtual environment:**
 ```bash
-python -m venv myenv
-
-myenv\Scripts\activate   # On Windows (Command Prompt)
-.\venv\Scripts\Activate  # On Windows (PowerShell)
-source venv/bin/activate # On Linux/MacOS
-
-pip install -r requirementsOld.txt // requirements.txt
-
-python test.py   # you can rename test.py
+   python -m venv myenv
 ```
-if not work for use Environment not true Python version
+2. **Activate the virtual environment:**
+   - On Windows (Command Prompt):
+     `myenv\\Scripts\\activate`
+   - On Windows (PowerShell):
+     `.\\venv\\Scripts\\Activate`
+   - On Linux/MacOS:
+     `source venv/bin/activate`
+
+3. **Install the required dependencies:**
 ```bash
-where python
+   pip install -r requirementsOld.txt  # or requirements.txt
 ```
-and add python version in your Path in system environment variables
-
-Or
+4. **Run the project:**
 ```bash
-pythonX.XX -m venv myenv // X.XX = version (e.g 3.7.9, 3.11.9 etc.)
-
-myenv\Scripts\activate   # On Windows (Command Prompt)
-.\venv\Scripts\Activate  # On Windows (PowerShell)
-source venv/bin/activate # On Linux/MacOS
-
-pip install -r requirementsOld.txt or pythonX.XX -m pip install -r requirementsOld.txt // requirements.txt
-
-python test.py   # you can rename test.py
+   python test.py  # You can rename test.py
 ```
+If the environment doesn't work due to an incorrect Python version:
 
+1. **Check the Python version:**
+```bash
+   where python # pythonX.XX
+```
+2. **Ensure the correct Python version is added to your system's PATH environment variables.**
+
+Alternatively, you can specify the desired Python version:
+
+1. **Create the virtual environment with a specific Python version:**
+```bash
+   pythonX.XX -m venv myenv  # Replace X.XX with the version (e.g., 3.7.9, 3.11.9, etc.)
+```
+2. **Activate the virtual environment:**
+   - On Windows (Command Prompt):
+     `myenv\\Scripts\\activate`
+   - On Windows (PowerShell):
+     `.\\venv\\Scripts\\Activate`
+   - On Linux/MacOS:
+     `source venv/bin/activate`
+
+3. **Install the required dependencies:**
+```bash
+   pip install -r requirementsOld.txt  # or pythonX.XX -m pip install -r requirementsOld.txt
+```
+4. **Run the project:**
+```bash
+   python test.py  # You can rename test.py
+```
 ## How to Install
 
 1. Open Command Prompt and navigate to your desired directory:
