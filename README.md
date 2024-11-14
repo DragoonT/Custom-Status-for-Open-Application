@@ -11,6 +11,37 @@ Easily customize your Discord playing status with an image.
 5. BiliBili Custom Status Discord! [BiliBiliCustomStatusDiscord.exe](https://github.com/DragoonT/BiliBili-Custom-Status/releases)
 6. iQIYI Custom Status Discord! [iQIYICustomStatusDiscord.exe](https://github.com/DragoonT/iQIYI-Custom-Status/releases)
 
+## How to Create This Project (from howtoactivate.txt)
+```bash
+python -m venv myenv
+
+myenv\Scripts\activate   # On Windows (Command Prompt)
+.\venv\Scripts\Activate  # On Windows (PowerShell)
+source venv/bin/activate # On Linux/MacOS
+
+pip install -r requirementsOld.txt // requirements.txt
+
+python test.py   # you can rename test.py
+```
+if not work for use Environment not true Python version
+```bash
+where python
+```
+and add python version in your Path in system environment variables
+
+Or
+```bash
+pythonX.XX -m venv myenv // X.XX = version (e.g 3.7.9, 3.11.9 etc.)
+
+myenv\Scripts\activate   # On Windows (Command Prompt)
+.\venv\Scripts\Activate  # On Windows (PowerShell)
+source venv/bin/activate # On Linux/MacOS
+
+pip install -r requirementsOld.txt or pythonX.XX -m pip install -r requirementsOld.txt // requirements.txt
+
+python test.py   # you can rename test.py
+```
+
 ## How to Install
 
 1. Open Command Prompt and navigate to your desired directory:

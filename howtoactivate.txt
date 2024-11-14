@@ -1,18 +1,36 @@
-## How to run status in discord
+## How to Create This Project
 
 python -m venv myenv
 
-myenv\Scripts\activate   # On Windows
+myenv\Scripts\activate   # On Windows (Command Prompt)
+.\venv\Scripts\Activate  # On Windows (PowerShell)
+source venv/bin/activate # On Linux/MacOS
 
-pip install discord.py psutil pypresence pillow
+pip install -r requirementsOld.txt // requirements.txt
+
+python test.py   # you can rename test.py
+
+if not work for use Environment not true Python version
+
+where python
+
+and add python version in your Path in system environment variables
+
+Or
+
+pythonX.XX -m venv myenv // X.XX = version (e.g 3.7.9, 3.11.9 etc.)
+
+myenv\Scripts\activate   # On Windows (Command Prompt)
+.\venv\Scripts\Activate  # On Windows (PowerShell)
+source venv/bin/activate # On Linux/MacOS
+
+pip install -r requirementsOld.txt or pythonX.XX -m pip install -r requirementsOld.txt // requirements.txt
 
 python test.py   # you can rename test.py
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## if you want to change to .exe. Follow this step commands (If you rename test.py. You need rename test.py from this same)
-
-pip install pyinstaller
 
 if you want install all command. You can use this command -> pyinstaller --onefile --icon=your_icon.ico your_file.py
 if you want install all command no show console. You can use this command -> pyinstaller --onefile --icon=your_icon.ico --noconsole your_file.py
