@@ -10,6 +10,7 @@ Easily customize your Discord playing status with an image.
 4. [CustomStatusDiscord.exe](https://github.com/DragoonT/Custom-Status-for-Open-Application/releases) (full version)
 5. BiliBili Custom Status Discord! [BiliBiliCustomStatusDiscord.exe](https://github.com/DragoonT/BiliBili-Custom-Status/releases)
 6. iQIYI Custom Status Discord! [iQIYICustomStatusDiscord.exe](https://github.com/DragoonT/iQIYI-Custom-Status/releases)
+7. YouTube Custom Status Discord! [YouTubeCustomStatusDiscord.exe](https://github.com/DragoonT/YouTube_CustomStatus/releases)
 
 ## How to Create This Project (from howtoactivate.txt)
 
